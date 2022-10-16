@@ -16,6 +16,10 @@ public class Selection_sort {
 		}
 		System.out.println();
 		// selection sort
+		
+		// time complexity O(n^2) - nested loops
+		// space complexity O(1)
+		
 		for (int i = 0; i < n - 1; i++) {
 			int mini = i;
 			for (int j = i + 1; j < n; j++) {
