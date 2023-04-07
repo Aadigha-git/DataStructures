@@ -20,11 +20,11 @@ public class SwapTwo {
 		System.out.println("Enter integer 'b': ");
 		b = scn.nextInt();
 
-		System.out.println("Before swapping Value of a is " + a + " and Value of b is " + b);
+		System.out.println("Before swapping, the Value of a is " + a + " and the Value of b is " + b);
 
 		a = (a + b) - (b = a);
 
-		System.out.println("After Swapping Value of a is " + a + " and Value of b is " + b);
+		System.out.println("After Swapping, the Value of a is " + a + " and the Value of b is " + b);
 		scn.close();
 
 	}
