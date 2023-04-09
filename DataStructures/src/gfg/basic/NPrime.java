@@ -46,7 +46,7 @@ class NPrime {
 		Scanner scn = new Scanner(System.in);
 		int N;
 		System.out.println("Define n, upto which you want to find the prime numbers: ");
-		N = scn.nextInt()
+		N = scn.nextInt();
 		System.out.println("All the Prime numbers within 1 and " + N + " are:");
 		NPrime g = new NPrime();
 		g.sieveOfEratosthenes(N);
